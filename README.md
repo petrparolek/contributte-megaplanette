@@ -26,11 +26,15 @@ Install [Composer](http://getcomposer.org) and download dependencies via compose
 
 write for folders log and temp
 
-`$ chmod -R a+rw temp log`
+```bash```
+chmod -R a+rw temp log
+```
 
 and for data
 
-`$ chmod -R a+rw www/data`
+```bash
+chmod -R a+rw www/data
+```
 
 
 ### 4) App configuration
@@ -45,8 +49,9 @@ default user is "architect" and password is "kreslo"
 
 Run nextras migration script
 
-`./bin/console mig:res`
-
+```bash
+./bin/console mig:res
+```
 
 ### 6) Apache
 
@@ -74,8 +79,9 @@ For development
 install [Node](http://nodejs.org)
 
 download dependencies via npm
-`npm install`
-
+```bash
+npm install`
+```
 
 
 ### Bower
@@ -83,8 +89,9 @@ download dependencies via npm
 install [Bower](http://bower.io)
 
 download dependencies via composer
-`bower install`
-
+```bash
+bower install`
+```
 
 
 ### Grunt
@@ -92,8 +99,12 @@ download dependencies via composer
 install [Grunt](http://gruntjs.com)
 
 build minimalized script file and stylesheets file
-`grunt`
+```bash
+grunt
+```
 
 for development use
 
-`grunt watch`
+```bash```
+grunt watch`
+```

@@ -180,7 +180,7 @@ All these special features expect all default extensions to be on.
 
 Link or any other ajaxified element can have custom data attribute `data-ajax-off`. It contains names of extensions, that should be deactivated for Ajax request fired on element.
 
-```html
+```latte
 <a n:href="do!" class="ajax" data-ajax-off="snippets">
 ```
 
@@ -205,7 +205,7 @@ New content of snippet with this attribute won't replace the old content, but it
 
 Click on link or submittion of form is validated on various conditions. You can switch any of them:
 
-```html
+```latte
 <a n:href="do!" class="ajax" data-ajax-validate='{"keys":false}'>
 ```
 

@@ -180,7 +180,7 @@ Follow the Node.js guide: [Node.js installation](https://github.com/joyent/node/
 
 Go to the project folder and run the following:
 
-```sh
+```bash
 npm install
 grunt
 ```

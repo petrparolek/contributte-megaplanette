@@ -28,11 +28,11 @@ if ($this->isAjax()) {
 
 And `app/@layout.latte` might be upgraded accordingly:
 
-```html
+```latte
 <title n:inner-snippet="title">...
 ```
 
-```html
+```latte
 {snippet content}
 {include content}
 {/snippet}
