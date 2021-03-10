@@ -26,7 +26,7 @@ Install [Composer](http://getcomposer.org) and download dependencies via compose
 
 write for folders log and temp
 
-```bash```
+```bash
 chmod -R a+rw temp log
 ```
 
@@ -36,12 +36,10 @@ and for data
 chmod -R a+rw www/data
 ```
 
-
 ### 4) App configuration
 
 Copy file *app/config/config.local.template.neon* as *app/config/config.local.neon*
 and update database credentials.
-
 
 ### 5) SQL init
 
@@ -69,8 +67,6 @@ apache/virtuals-list
 </VirtualHost>
 ```
 
-
-
 For development
 ------------
 
@@ -83,7 +79,6 @@ download dependencies via npm
 npm install`
 ```
 
-
 ### Bower
 
 install [Bower](http://bower.io)
@@ -92,7 +87,6 @@ download dependencies via composer
 ```bash
 bower install`
 ```
-
 
 ### Grunt
 
